@@ -1,0 +1,88 @@
+{
+  "SEV": [
+    {
+      "name": "3UTR-preNP",
+      "type": "UNTRANS_REGION",
+      "refStart": 1,
+      "refEnd": 457
+    },
+    {
+      "name": "NP",
+      "geneName": "SEVNP",
+      "type": "GENE"
+    },
+    {
+      "name": "postNP-preVP35",
+      "type": "UNTRANS_REGION",
+      "refStart": 2675,
+      "refEnd": 3137
+    },
+    {
+      "name": "VP35",
+      "geneName": "SEVVP35",
+      "type": "GENE"
+    },
+    {
+      "name": "postVP35-preVP40",
+      "type": "UNTRANS_REGION",
+      "refStart": 4128,
+      "refEnd": 4453
+    },
+    {
+      "name": "VP40",
+      "geneName": "SEVVP40",
+      "type": "GENE"
+    },
+    {
+      "name": "postVP40-preGP",
+      "type": "UNTRANS_REGION",
+      "refStart": 5435,
+      "refEnd": 5997
+    },
+    {
+      "name": "GP",
+      "geneName": "SEVGP",
+      "type": "GENE",
+      "trim": [886]
+    },
+    {
+      "name": "postGP-preVP30",
+      "type": "UNTRANS_REGION",
+      "refStart": 8028,
+      "refEnd": 8440
+    },
+    {
+      "name": "VP30",
+      "geneName": "SEVVP30",
+      "type": "GENE"
+    },
+    {
+      "name": "postVP30-preVP24",
+      "type": "UNTRANS_REGION",
+      "refStart": 9308,
+      "refEnd": 10298
+    },
+    {
+      "name": "VP24",
+      "geneName": "SEVVP24",
+      "type": "GENE"
+    },
+    {
+      "name": "postVP24-preL",
+      "type": "UNTRANS_REGION",
+      "refStart": 11055,
+      "refEnd": 11534
+    },
+    {
+      "name": "L",
+      "geneName": "SEVL",
+      "type": "GENE"
+    },
+    {
+      "name": "postL-5UTR",
+      "type": "UNTRANS_REGION",
+      "refStart": 18168,
+      "refEnd": 18875
+    }
+  ]
+}

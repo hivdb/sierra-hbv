@@ -1,0 +1,9 @@
+[submodule "sierra-core"]
+	path = sierra-core
+	url = git@github.com:hivdb/sierra-core.git
+[submodule "sierra-graphql"]
+	path = sierra-graphql
+	url = git@github.com:hivdb/sierra-graphql.git
+[submodule "asi_interpreter"]
+	path = asi_interpreter
+	url = git@github.com:hivdb/asi_interpreter.git

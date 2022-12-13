@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Major",
+    "ordinal": 1
+  },
+  {
+    "name": "Accessory",
+    "ordinal": 2
+  },
+  {
+    "name": "Other",
+    "ordinal": 3
+  }
+]
