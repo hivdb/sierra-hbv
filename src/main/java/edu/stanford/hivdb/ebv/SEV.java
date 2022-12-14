@@ -19,7 +19,7 @@ public class SEV extends DefaultVirus<SEV> {
 
 		@Override
 		protected String getGenePattern() {
-			return "NP|VP(?:35|40|30|24)|GP|L";
+			return "NP|VP(?:35|40|30|24)|GP|sGP|ssGP|L";
 		}
 
 		@Override
