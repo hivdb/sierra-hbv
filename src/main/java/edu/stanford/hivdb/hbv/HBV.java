@@ -1,4 +1,4 @@
-package edu.stanford.hivdb.ebv;
+package edu.stanford.hivdb.hbv;
 
 import edu.stanford.hivdb.drugresistance.algorithm.DrugResistanceAlgorithm;
 import edu.stanford.hivdb.mutations.AminoAcidPercents;
@@ -8,28 +8,28 @@ import edu.stanford.hivdb.viruses.Virus;
 import edu.stanford.hivdb.viruses.DefaultVirus;
 import edu.stanford.hivdb.viruses.VirusDataLoader;
 
-public class SEV extends DefaultVirus<SEV> {
+public class HBV extends DefaultVirus<HBV> {
 
-	private static final class SEVDataLoader extends VirusDataLoader<SEV> {
+	private static final class HBVDataLoader extends VirusDataLoader<HBV> {
 
-		public SEVDataLoader(SEV virus) {
+		public HBVDataLoader(HBV virus) {
 			super(virus);
 			// TODO Auto-generated constructor stub
 		}
 
 		@Override
 		protected String getGenePattern() {
-			return "NP|VP(?:35|40|30|24)|GP|sGP|ssGP|L";
+			return "P|RT|S|X|C";
 		}
 
 		@Override
 		protected String getVirusName() {
-			return "Sudan-EBV";
+			return "Hepatitis B";
 		}
 
 		@Override
 		protected String getMainStrainText() {
-			return "SEV";
+			return "HBV";
 		}
 
 		@Override
@@ -140,33 +140,33 @@ public class SEV extends DefaultVirus<SEV> {
 	}
 	
 	static {
-		Virus.registerInstance(new SEV());
+		Virus.registerInstance(new HBV());
 	}
 	
-	public static SEV getInstance() {
-		return Virus.getInstance(SEV.class);
+	public static HBV getInstance() {
+		return Virus.getInstance(HBV.class);
 	}
 
 	
-	protected VirusDataLoader<SEV> getVirusDataLoader() {
-		return new SEVDataLoader(this);
+	protected VirusDataLoader<HBV> getVirusDataLoader() {
+		return new HBVDataLoader(this);
 	}
 
 
 	@Override
-	public AminoAcidPercents<SEV> getMainAminoAcidPercents(Strain<SEV> strain) {
+	public AminoAcidPercents<HBV> getMainAminoAcidPercents(Strain<HBV> strain) {
 		return AminoAcidPercents.newEmptyInstance();
 	}
 
 
 	@Override
-	public CodonPercents<SEV> getMainCodonPercents(Strain<SEV> strain) {
+	public CodonPercents<HBV> getMainCodonPercents(Strain<HBV> strain) {
 		return CodonPercents.newEmptyInstance();
 	}
 
 
 	@Override
-	public DrugResistanceAlgorithm<SEV> getDefaultDrugResistAlgorithm() {
+	public DrugResistanceAlgorithm<HBV> getDefaultDrugResistAlgorithm() {
 		return null;
 	}
 

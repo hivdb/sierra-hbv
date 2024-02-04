@@ -16,7 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-package edu.stanford.hivdb.ebv.web;
+package edu.stanford.hivdb.hbv.web;
 
 import java.io.IOException;
 import jakarta.ws.rs.container.ContainerRequestContext;

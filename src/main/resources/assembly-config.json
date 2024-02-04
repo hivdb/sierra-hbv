@@ -1,88 +1,28 @@
 {
-  "SEV": [
+  "HBV": [
     {
-      "name": "3UTR-preNP",
-      "type": "UNTRANS_REGION",
-      "refStart": 1,
-      "refEnd": 457
-    },
-    {
-      "name": "NP",
-      "geneName": "SEVNP",
-      "type": "GENE"
-    },
-    {
-      "name": "postNP-preVP35",
-      "type": "UNTRANS_REGION",
-      "refStart": 2675,
-      "refEnd": 3137
-    },
-    {
-      "name": "VP35",
-      "geneName": "SEVVP35",
-      "type": "GENE"
-    },
-    {
-      "name": "postVP35-preVP40",
-      "type": "UNTRANS_REGION",
-      "refStart": 4128,
-      "refEnd": 4453
-    },
-    {
-      "name": "VP40",
-      "geneName": "SEVVP40",
-      "type": "GENE"
-    },
-    {
-      "name": "postVP40-preGP",
-      "type": "UNTRANS_REGION",
-      "refStart": 5435,
-      "refEnd": 5997
-    },
-    {
-      "name": "GP",
-      "geneName": "SEVGP",
+      "name": "P_1to1622",
+      "geneName": "HBVP",
       "type": "GENE",
-      "trim": [886]
+      "trim": [[1, 874]]
     },
     {
-      "name": "postGP-preVP30",
-      "type": "UNTRANS_REGION",
-      "refStart": 8028,
-      "refEnd": 8440
+      "name": "X_1623to1837",
+      "geneName": "HBVX",
+      "type": "GENE",
+      "trim": [[1, 247]]
     },
     {
-      "name": "VP30",
-      "geneName": "SEVVP30",
-      "type": "GENE"
+      "name": "C_1838to2451",
+      "geneName": "HBVC",
+      "type": "GENE",
+      "trim": [[1, 22]]
     },
     {
-      "name": "postVP30-preVP24",
-      "type": "UNTRANS_REGION",
-      "refStart": 9308,
-      "refEnd": 10298
-    },
-    {
-      "name": "VP24",
-      "geneName": "SEVVP24",
-      "type": "GENE"
-    },
-    {
-      "name": "postVP24-preL",
-      "type": "UNTRANS_REGION",
-      "refStart": 11055,
-      "refEnd": 11534
-    },
-    {
-      "name": "L",
-      "geneName": "SEVL",
-      "type": "GENE"
-    },
-    {
-      "name": "postL-5UTR",
-      "type": "UNTRANS_REGION",
-      "refStart": 18168,
-      "refEnd": 18875
+      "name": "P_2452to3182",
+      "geneName": "HBVP",
+      "type": "GENE",
+      "trim": [[1, 143], [875, 2496]]
     }
   ]
 }

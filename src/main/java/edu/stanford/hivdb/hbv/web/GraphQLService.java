@@ -16,7 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-package edu.stanford.hivdb.ebv.web;
+package edu.stanford.hivdb.hbv.web;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -33,7 +33,7 @@ import jakarta.ws.rs.core.Response;
 import jakarta.ws.rs.core.Response.Status;
 
 import edu.stanford.hivdb.graphql.SierraSchema;
-import edu.stanford.hivdb.ebv.SEV;
+import edu.stanford.hivdb.hbv.HBV;
 import edu.stanford.hivdb.utilities.Json;
 import graphql.ExceptionWhileDataFetching;
 import graphql.ExecutionInput;
@@ -47,7 +47,7 @@ import graphql.schema.GraphQLSchema;
 @Consumes(MediaType.APPLICATION_JSON)
 public class GraphQLService {
 
-	private final static GraphQLSchema schema = SierraSchema.makeSchema(SEV.getInstance());
+	private final static GraphQLSchema schema = SierraSchema.makeSchema(HBV.getInstance());
 	private final GraphQL graphql;
 
 	public GraphQLService() {
