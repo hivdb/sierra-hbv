@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-modules id="moduleCoreId" project-version="1.5.0">
-	<wb-module deploy-name="Sierra-EBV">
-		<property name="context-root" value="Sierra-EBV"/>
+	<wb-module deploy-name="Sierra-HBV">
+		<property name="context-root" value="Sierra-HBV"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/sierra-graphql/sierra-graphql">

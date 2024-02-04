@@ -10,16 +10,16 @@ force-build:
 	@docker build --no-cache -t ${DOCKERREPO} .
 
 inspect-dev:
-	@docker exec -it hivdb-sierra-ebv-dev /bin/bash
+	@docker exec -it hivdb-sierra-hbv-dev /bin/bash
 
 dev: build
-	@docker rm -f hivdb-sierra-ebv-dev 2>/dev/null || true
+	@docker rm -f hivdb-sierra-hbv-dev 2>/dev/null || true
 	@docker run \
-		--name=hivdb-sierra-ebv-dev \
+		--name=hivdb-sierra-hbv-dev \
 		--volume ~/.aws:/root/.aws:ro \
 		--env NUCAMINO_AWS_LAMBDA=nucamino-align-with:5 \
 		--env CMS_STAGE=localhost \
-		--rm -it --publish=8117:8080 ${DOCKERREPO} dev
+		--rm -it --publish=8118:8080 ${DOCKERREPO} dev
 
 release: build
 	@docker login
@@ -29,4 +29,9 @@ release: build
 	@echo ${VERSION} > .latest-version
 	@sleep 2
 
-.PHONY: build
+src/main/resources/aapcnt/%.json: src/main/resources/aapcnt/%.csv scripts/csv2json.py
+	@python3 scripts/csv2json.py $<
+
+src: $(patsubst %.csv, %.json, $(wildcard src/main/resources/aapcnt/*.csv))
+
+.PHONY: build dev release force-build inspect-dev

@@ -1,10 +1,21 @@
 {
   "HBV": [
     {
-      "name": "P_1to1622",
+      "name": "P_1to131",
       "geneName": "HBVP",
       "type": "GENE",
-      "trim": [[1, 874]]
+      "trim": [[1, 874], [1006, 2496]]
+    },
+    {
+      "name": "RT_132to1163",
+      "geneName": "HBVRT",
+      "type": "GENE"
+    },
+    {
+      "name": "P_1164to1622",
+      "geneName": "HBVP",
+      "type": "GENE",
+      "trim": [[1, 2037]]
     },
     {
       "name": "X_1623to1837",

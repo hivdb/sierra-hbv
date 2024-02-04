@@ -1,5 +1,10 @@
 package edu.stanford.hivdb.hbv;
 
+import java.util.Collection;
+import java.util.List;
+
+import com.google.common.collect.Sets;
+
 import edu.stanford.hivdb.drugresistance.algorithm.DrugResistanceAlgorithm;
 import edu.stanford.hivdb.mutations.AminoAcidPercents;
 import edu.stanford.hivdb.mutations.CodonPercents;
@@ -14,7 +19,6 @@ public class HBV extends DefaultVirus<HBV> {
 
 		public HBVDataLoader(HBV virus) {
 			super(virus);
-			// TODO Auto-generated constructor stub
 		}
 
 		@Override
@@ -79,7 +83,7 @@ public class HBV extends DefaultVirus<HBV> {
 
 		@Override
 		protected String getAAPcntsResPath() {
-			return null;
+			return "aapcnt/rx-%s_genotype-%s.json";
 		}
 
 		@Override
@@ -155,7 +159,7 @@ public class HBV extends DefaultVirus<HBV> {
 
 	@Override
 	public AminoAcidPercents<HBV> getMainAminoAcidPercents(Strain<HBV> strain) {
-		return AminoAcidPercents.newEmptyInstance();
+		return getAminoAcidPercents(strain, "all", "all");
 	}
 
 
@@ -170,4 +174,8 @@ public class HBV extends DefaultVirus<HBV> {
 		return null;
 	}
 
+	@Override
+	public Collection<String> getDefaultIncludedGenes() {
+		return Sets.newLinkedHashSet(List.of("RT"));
+	}
 }
