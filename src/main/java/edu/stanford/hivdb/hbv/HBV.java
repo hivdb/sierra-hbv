@@ -6,6 +6,7 @@ import java.util.List;
 import com.google.common.collect.Sets;
 
 import edu.stanford.hivdb.drugresistance.algorithm.DrugResistanceAlgorithm;
+import edu.stanford.hivdb.genotypes.Genotype;
 import edu.stanford.hivdb.mutations.AminoAcidPercents;
 import edu.stanford.hivdb.mutations.CodonPercents;
 import edu.stanford.hivdb.viruses.Strain;
@@ -29,6 +30,11 @@ public class HBV extends DefaultVirus<HBV> {
 		@Override
 		protected String getVirusName() {
 			return "Hepatitis B";
+		}
+		
+		@Override
+		public Genotype<HBV> getGenotypeUnknown() {
+			return getGenotype("UNK");
 		}
 
 		@Override
@@ -108,12 +114,12 @@ public class HBV extends DefaultVirus<HBV> {
 
 		@Override
 		protected String getGenotypeReferencesResPath() {
-			return null;
+			return "genotypes/genotype-references.json";
 		}
 
 		@Override
 		protected String getGenotypesRespath() {
-			return null;
+			return "genotypes/genotypes.json";
 		}
 
 		@Override
@@ -156,6 +162,10 @@ public class HBV extends DefaultVirus<HBV> {
 		return new HBVDataLoader(this);
 	}
 
+	@Override
+	public Double getGenotypeUnknownThreshold() {
+		return 0.08;
+	}
 
 	@Override
 	public AminoAcidPercents<HBV> getMainAminoAcidPercents(Strain<HBV> strain) {

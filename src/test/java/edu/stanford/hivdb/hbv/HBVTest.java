@@ -5,6 +5,9 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 import edu.stanford.hivdb.mutations.AAMutation;
+import edu.stanford.hivdb.sequences.AlignedSequence;
+import edu.stanford.hivdb.sequences.Aligner;
+import edu.stanford.hivdb.sequences.Sequence;
 
 public class HBVTest {
 
@@ -23,5 +26,17 @@ public class HBVTest {
 	@Test
 	public void testAminoAcidPercentsLoader() {
 		assertEquals(hbv.getMainAminoAcidPercents(hbv.getMainStrain()).get().size(), 2051);
+	}
+
+	@Test
+	public void testGenotyping() {
+		Aligner<HBV> hbvAligner = Aligner.getInstance(hbv);
+		Sequence LQ512261 = Sequence.fromGenbank("LQ512261.1");
+		AlignedSequence<HBV> alignedSeq = hbvAligner.align(LQ512261);
+		assertEquals("D (1.94%)", alignedSeq.getGenotypeText());
+		
+		Sequence GU815634 = Sequence.fromGenbank("GU815634.1");
+		alignedSeq = hbvAligner.align(GU815634);
+		assertEquals("B (1.26%)", alignedSeq.getGenotypeText());
 	}
 }

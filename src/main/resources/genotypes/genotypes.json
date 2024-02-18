@@ -1,0 +1,92 @@
+{
+  "A": {
+    "classificationLevel": "SUBTYPE",
+    "displayName": "A",
+    "distanceUpperLimit": 0.08,
+    "isSimpleCRF": false,
+    "name": "A",
+    "parentGenotypes": null,
+    "regions": null
+  },
+  "B": {
+    "classificationLevel": "SUBTYPE",
+    "displayName": "B",
+    "distanceUpperLimit": 0.08,
+    "isSimpleCRF": false,
+    "name": "B",
+    "parentGenotypes": null,
+    "regions": null
+  },
+  "C": {
+    "classificationLevel": "SUBTYPE",
+    "displayName": "C",
+    "distanceUpperLimit": 0.08,
+    "isSimpleCRF": false,
+    "name": "C",
+    "parentGenotypes": null,
+    "regions": null
+  },
+  "D": {
+    "classificationLevel": "SUBTYPE",
+    "displayName": "D",
+    "distanceUpperLimit": 0.08,
+    "isSimpleCRF": false,
+    "name": "D",
+    "parentGenotypes": null,
+    "regions": null
+  },
+  "E": {
+    "classificationLevel": "SUBTYPE",
+    "displayName": "E",
+    "distanceUpperLimit": 0.08,
+    "isSimpleCRF": false,
+    "name": "E",
+    "parentGenotypes": null,
+    "regions": null
+  },
+  "F": {
+    "classificationLevel": "SUBTYPE",
+    "displayName": "F",
+    "distanceUpperLimit": 0.08,
+    "isSimpleCRF": false,
+    "name": "F",
+    "parentGenotypes": null,
+    "regions": null
+  },
+  "G": {
+    "classificationLevel": "SUBTYPE",
+    "displayName": "G",
+    "distanceUpperLimit": 0.08,
+    "isSimpleCRF": false,
+    "name": "G",
+    "parentGenotypes": null,
+    "regions": null
+  },
+  "H": {
+    "classificationLevel": "SUBTYPE",
+    "displayName": "H",
+    "distanceUpperLimit": 0.08,
+    "isSimpleCRF": false,
+    "name": "H",
+    "parentGenotypes": null,
+    "regions": null
+  },
+  "I": {
+    "classificationLevel": "SUBTYPE",
+    "displayName": "I",
+    "distanceUpperLimit": 0.08,
+    "isSimpleCRF": false,
+    "name": "I",
+    "parentGenotypes": null,
+    "regions": null
+  },
+  "UNK": {
+    "classificationLevel": "SUBTYPE",
+    "displayName": "Unknown",
+    "distanceUpperLimit": 0.0,
+    "isSimpleCRF": false,
+    "name": "UNK",
+    "parentGenotypes": null,
+    "regions": null
+  }
+}
