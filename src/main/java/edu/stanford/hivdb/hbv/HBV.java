@@ -104,7 +104,7 @@ public class HBV extends DefaultVirus<HBV> {
 
 		@Override
 		protected String getMutTypePairsResPath() {
-			return null;
+			return "mutation-type-pairs.json";
 		}
 
 		@Override

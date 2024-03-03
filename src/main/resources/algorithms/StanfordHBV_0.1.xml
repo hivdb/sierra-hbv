@@ -68,7 +68,7 @@
       <COMMENT_STRING id="RT181TV">
         <!--<DATE>2024-03-02</DATE>-->
         <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
-        <TEXT><![CDATA[A181VT reduce ADV susceptibility 3-10-fold and are associated with VF. A181T causes a stop codon in the S protein reading frame, potentially allowing for ongoing hepatic replication without accompanying viral load rebout. A181VT also occasionally arises in patients receiving 3TC and reduces susceptibility to this drug as well. It also reduces TFV susceptibility. Other DRMs: A181LG[^Nguyen JGAMR 2023], A181C[^Liu Y Emerg Microb Infect 2019[^Rose RE Hep Comm 2018], A181S[^Liu Y, JVH, 2015].]]></TEXT>
+        <TEXT><![CDATA[A181VT reduce ADV susceptibility 3-10-fold and are associated with VF. A181T causes a stop codon in the S protein reading frame, potentially allowing for ongoing hepatic replication without accompanying viral load rebout. A181VT also occasionally arises in patients receiving 3TC and reduces susceptibility to this drug as well. It also reduces TFV susceptibility. Other DRMs: A181LG[^Nguyen JGAMR 2023], A181C[^Liu Y Emerg Microb Infect 2019][^Rose RE Hep Comm 2018], A181S[^Liu Y JVH 2015].]]></TEXT>
         <SORT_TAG>1</SORT_TAG>
       </COMMENT_STRING>
       <COMMENT_STRING id="RT184G">
@@ -92,7 +92,7 @@
       <COMMENT_STRING id="RT236T">
         <!--<DATE>2024-03-02</DATE>-->
         <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
-        <TEXT><![CDATA[Other mutations: N236Y[^Bautista-Anorocho Future Vir 2023], N236V[^Liu Y, Antivir Ther 2014].]]></TEXT>
+        <TEXT><![CDATA[N236T: Other mutations include [^Bautista-Amorocho Front Microbiol 2023] and N236V[^Liu Y Antivir Ther 2014].]]></TEXT>
         <SORT_TAG>1</SORT_TAG>
       </COMMENT_STRING>
       <COMMENT_STRING id="RT250V">
