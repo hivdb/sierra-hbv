@@ -1,0 +1,122 @@
+[
+  {
+    "strain": "HBV",
+    "commentName": "RT80IV",
+    "drugClass": "NRTI",
+    "conditionType": "MUTATION",
+    "conditionValue": {
+      "gene": "RT",
+      "pos": 80,
+      "aas": "IV"
+    },
+    "comment": "L80I is an accessory 3TC DRM that arises in patients who have also developed M204VI."
+  },
+  {
+    "strain": "HBV",
+    "commentName": "RT169T",
+    "drugClass": "NRTI",
+    "conditionType": "MUTATION",
+    "conditionValue": {
+      "gene": "RT",
+      "pos": 169,
+      "aas": "T"
+    },
+    "comment": "High-level ETV resistance results from the combination of M204VI + L180I and one or more of the following DRMs: I169T, T184G, S202I, and M250V. Other mutations: I160K[^Nguyen JGAMR 2023]."
+  },
+  {
+    "strain": "HBV",
+    "commentName": "RT173L",
+    "drugClass": "NRTI",
+    "conditionType": "MUTATION",
+    "conditionValue": {
+      "gene": "RT",
+      "pos": 173,
+      "aas": "L"
+    },
+    "comment": "L80I and V173L are additional accessory lamivudine resistance mutations that arise in patients who have also developed viruses with M204V/I."
+  },
+  {
+    "strain": "HBV",
+    "commentName": "RT180M",
+    "drugClass": "NRTI",
+    "conditionType": "MUTATION",
+    "conditionValue": {
+      "gene": "RT",
+      "pos": 180,
+      "aas": "M"
+    },
+    "comment": "M204V/I are also frequently accompanied by compensatory mutations, particularly L180M. Other mutations: L180FYR[^Nguyen JGAMR 2023]."
+  },
+  {
+    "strain": "HBV",
+    "commentName": "RT181TV",
+    "drugClass": "NRTI",
+    "conditionType": "MUTATION",
+    "conditionValue": {
+      "gene": "RT",
+      "pos": 181,
+      "aas": "TV"
+    },
+    "comment": "A181VT reduce ADV susceptibility 3-10-fold and are associated with VF. A181T causes a stop codon in the S protein reading frame, potentially allowing for ongoing hepatic replication without accompanying viral load rebout. A181VT also occasionally arises in patients receiving 3TC and reduces susceptibility to this drug as well. It also reduces TFV susceptibility. Other DRMs: A181LG[^Nguyen JGAMR 2023], A181C[^Liu Y Emerg Microb Infect 2019[^Rose RE Hep Comm 2018], A181S[^Liu Y, JVH, 2015]."
+  },
+  {
+    "strain": "HBV",
+    "commentName": "RT184G",
+    "drugClass": "NRTI",
+    "conditionType": "MUTATION",
+    "conditionValue": {
+      "gene": "RT",
+      "pos": 184,
+      "aas": "G"
+    },
+    "comment": "High-level ETV resistance results from the combination of M204VI + L180I and one or more of the following DRMs: I169T, T184G, S202I, and M250V. Other DRMs: T184AL[^Shao J JIDC 2021], 184ACFGILS[^Shang J BMC ID 2021]."
+  },
+  {
+    "strain": "HBV",
+    "commentName": "RT202GI",
+    "drugClass": "NRTI",
+    "conditionType": "MUTATION",
+    "conditionValue": {
+      "gene": "RT",
+      "pos": 202,
+      "aas": "GI"
+    },
+    "comment": "High-level ETV resistance results from the combination of M204VI + L180I and one or more of the following DRMs: I169T, T184G, S202I, and M250V. Other mutations: S202N[^Nguyen JGAMR 2023]."
+  },
+  {
+    "strain": "HBV",
+    "commentName": "RT204IV",
+    "drugClass": "NRTI",
+    "conditionType": "MUTATION",
+    "conditionValue": {
+      "gene": "RT",
+      "pos": 204,
+      "aas": "IV"
+    },
+    "comment": "M204V/I cause high-level to 3TC, FTC, and TBV."
+  },
+  {
+    "strain": "HBV",
+    "commentName": "RT236T",
+    "drugClass": "NRTI",
+    "conditionType": "MUTATION",
+    "conditionValue": {
+      "gene": "RT",
+      "pos": 236,
+      "aas": "T"
+    },
+    "comment": "Other mutations: N236Y[^Bautista-Anorocho Future Vir 2023], N236V[^Liu Y, Antivir Ther 2014]."
+  },
+  {
+    "strain": "HBV",
+    "commentName": "RT250V",
+    "drugClass": "NRTI",
+    "conditionType": "MUTATION",
+    "conditionValue": {
+      "gene": "RT",
+      "pos": 250,
+      "aas": "V"
+    },
+    "comment": "High-level ETV resistance results from the combination of M204VI + L180I and one or more of the following DRMs: I169T, T184G, S202I, and M250V. Other mutations M250QL[^Nguyen JGAMR 2023][^Shao J JIDC 2021][^Shang J BMC ID 2021]."
+  }
+]

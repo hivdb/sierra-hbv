@@ -1,0 +1,17 @@
+[
+  {
+    "name": "NRTI",
+    "ordinal": 1,
+    "abstractGene": "RT",
+    "fullName": "Nucleoside Reverse Transcriptase Inhibitor",
+    "strains": [
+      "HBV"
+    ],
+    "synonyms": [],
+    "mutationTypes": [
+      "Major",
+      "Accessory",
+      "Other"
+    ]
+  }
+]

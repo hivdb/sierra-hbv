@@ -1,0 +1,27 @@
+[
+  {
+    "name": "ADV",
+    "fullName": "adefovir",
+    "displayAbbr": "ADV",
+    "drugClass": "NRTI"
+  },
+  {
+    "name": "ETV",
+    "fullName": "entecavir",
+    "displayAbbr": "ETV",
+    "drugClass": "NRTI"
+  },
+  {
+    "name": "LMV",
+    "fullName": "lamivudine",
+    "displayAbbr": "3TC",
+    "drugClass": "NRTI"
+  },
+  {
+    "name": "TFV",
+    "fullName": "tenofovir",
+    "displayAbbr": "TFV",
+    "drugClass": "NRTI"
+  }
+]
+

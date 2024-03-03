@@ -39,4 +39,10 @@ public class HBVTest {
 		alignedSeq = hbvAligner.align(GU815634);
 		assertEquals("B (1.26%)", alignedSeq.getGenotypeText());
 	}
+	
+	@Test
+	public void testGetDefaultDrugResistAlgorithm() {
+		assertEquals("StanfordHBV", hbv.getDefaultDrugResistAlgorithm().getFamily());
+		assertEquals("0.1", hbv.getDefaultDrugResistAlgorithm().getVersion());
+	}
 }

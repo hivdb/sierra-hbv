@@ -1,0 +1,75 @@
+{
+  "NRTI": [
+    {
+      "gene": "RT",
+      "position": 80,
+      "aa": "I"
+    },
+    {
+      "gene": "RT",
+      "position": 80,
+      "aa": "V"
+    },
+    {
+      "gene": "RT",
+      "position": 169,
+      "aa": "T"
+    },
+    {
+      "gene": "RT",
+      "position": 173,
+      "aa": "L"
+    },
+    {
+      "gene": "RT",
+      "position": 180,
+      "aa": "M"
+    },
+    {
+      "gene": "RT",
+      "position": 181,
+      "aa": "T"
+    },
+    {
+      "gene": "RT",
+      "position": 181,
+      "aa": "V"
+    },
+    {
+      "gene": "RT",
+      "position": 184,
+      "aa": "G"
+    },
+    {
+      "gene": "RT",
+      "position": 202,
+      "aa": "G"
+    },
+    {
+      "gene": "RT",
+      "position": 202,
+      "aa": "I"
+    },
+    {
+      "gene": "RT",
+      "position": 204,
+      "aa": "I"
+    },
+    {
+      "gene": "RT",
+      "position": 204,
+      "aa": "V"
+    },
+    {
+      "gene": "RT",
+      "position": 236,
+      "aa": "T"
+    },
+    {
+      "gene": "RT",
+      "position": 250,
+      "aa": "V"
+    }
+  ]
+}
+

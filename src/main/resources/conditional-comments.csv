@@ -1,0 +1,11 @@
+﻿id,gene,drugClass,text,sortTag,conditionType,condition,date
+RT80IV,RT,NRTI,L80I is an accessory 3TC DRM that arises in patients who have also developed M204VI.,1,MUTATION,80IV,2024-03-02
+RT169T,RT,NRTI,"High-level ETV resistance results from the combination of M204VI + L180I and one or more of the following DRMs: I169T, T184G, S202I, and M250V. Other mutations: I160K[^Nguyen JGAMR 2023].",1,MUTATION,169T,2024-03-02
+RT173L,RT,NRTI,L80I and V173L are additional accessory lamivudine resistance mutations that arise in patients who have also developed viruses with M204V/I.,1,MUTATION,173L,2024-03-02
+RT180M,RT,NRTI,"M204V/I are also frequently accompanied by compensatory mutations, particularly L180M. Other mutations: L180FYR[^Nguyen JGAMR 2023].",1,MUTATION,180M,2024-03-02
+RT181TV,RT,NRTI,"A181VT reduce ADV susceptibility 3-10-fold and are associated with VF. A181T causes a stop codon in the S protein reading frame, potentially allowing for ongoing hepatic replication without accompanying viral load rebout. A181VT also occasionally arises in patients receiving 3TC and reduces susceptibility to this drug as well. It also reduces TFV susceptibility. Other DRMs: A181LG[^Nguyen JGAMR 2023], A181C[^Liu Y Emerg Microb Infect 2019[^Rose RE Hep Comm 2018], A181S[^Liu Y, JVH, 2015].",1,MUTATION,181TV,2024-03-02
+RT184G,RT,NRTI,"High-level ETV resistance results from the combination of M204VI + L180I and one or more of the following DRMs: I169T, T184G, S202I, and M250V. Other DRMs: T184AL[^Shao J JIDC 2021], 184ACFGILS[^Shang J BMC ID 2021].",1,MUTATION,184G,2024-03-02
+RT202GI,RT,NRTI,"High-level ETV resistance results from the combination of M204VI + L180I and one or more of the following DRMs: I169T, T184G, S202I, and M250V. Other mutations: S202N[^Nguyen JGAMR 2023].",1,MUTATION,202GI,2024-03-02
+RT204IV,RT,NRTI,"M204V/I cause high-level to 3TC, FTC, and TBV.",1,MUTATION,204IV,2024-03-02
+RT236T,RT,NRTI,"Other mutations: N236Y[^Bautista-Anorocho Future Vir 2023], N236V[^Liu Y, Antivir Ther 2014].",1,MUTATION,236T,2024-03-02
+RT250V,RT,NRTI,"High-level ETV resistance results from the combination of M204VI + L180I and one or more of the following DRMs: I169T, T184G, S202I, and M250V. Other mutations M250QL[^Nguyen JGAMR 2023][^Shao J JIDC 2021][^Shang J BMC ID 2021].",1,MUTATION,250V,2024-03-02

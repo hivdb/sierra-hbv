@@ -1,0 +1,92 @@
+[
+  {
+    "strain": "HBV",
+    "gene": "RT",
+    "drugClass": "NRTI",
+    "position": 80,
+    "aas": "IV",
+    "mutationType": "Accessory",
+    "isUnusual": false
+  },
+  {
+    "strain": "HBV",
+    "gene": "RT",
+    "drugClass": "NRTI",
+    "position": 169,
+    "aas": "T",
+    "mutationType": "Accessory",
+    "isUnusual": false
+  },
+  {
+    "strain": "HBV",
+    "gene": "RT",
+    "drugClass": "NRTI",
+    "position": 173,
+    "aas": "L",
+    "mutationType": "Accessory",
+    "isUnusual": false
+  },
+  {
+    "strain": "HBV",
+    "gene": "RT",
+    "drugClass": "NRTI",
+    "position": 180,
+    "aas": "M",
+    "mutationType": "Major",
+    "isUnusual": false
+  },
+  {
+    "strain": "HBV",
+    "gene": "RT",
+    "drugClass": "NRTI",
+    "position": 181,
+    "aas": "TV",
+    "mutationType": "Major",
+    "isUnusual": false
+  },
+  {
+    "strain": "HBV",
+    "gene": "RT",
+    "drugClass": "NRTI",
+    "position": 184,
+    "aas": "G",
+    "mutationType": "Accessory",
+    "isUnusual": false
+  },
+  {
+    "strain": "HBV",
+    "gene": "RT",
+    "drugClass": "NRTI",
+    "position": 202,
+    "aas": "GI",
+    "mutationType": "Accessory",
+    "isUnusual": false
+  },
+  {
+    "strain": "HBV",
+    "gene": "RT",
+    "drugClass": "NRTI",
+    "position": 204,
+    "aas": "IV",
+    "mutationType": "Major",
+    "isUnusual": false
+  },
+  {
+    "strain": "HBV",
+    "gene": "RT",
+    "drugClass": "NRTI",
+    "position": 236,
+    "aas": "T",
+    "mutationType": "Major",
+    "isUnusual": false
+  },
+  {
+    "strain": "HBV",
+    "gene": "RT",
+    "drugClass": "NRTI",
+    "position": 250,
+    "aas": "V",
+    "mutationType": "Accessory",
+    "isUnusual": false
+  }
+]

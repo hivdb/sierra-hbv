@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE ALGORITHM SYSTEM "https://cms.hivdb.org/prod/downloads/asi/ASI2.3.dtd">
+<ALGORITHM>
+  <ALGNAME>StanfordHBV</ALGNAME>
+  <ALGVERSION>0.1</ALGVERSION>
+  <ALGDATE>2024-03-02</ALGDATE>
+  <DEFINITIONS>
+    <GENE_DEFINITION>
+      <NAME>RT</NAME>
+      <DRUGCLASSLIST>NRTI</DRUGCLASSLIST>
+    </GENE_DEFINITION>
+    <LEVEL_DEFINITION>
+      <ORDER>1</ORDER>
+      <ORIGINAL>Susceptible</ORIGINAL>
+      <SIR>S</SIR>
+    </LEVEL_DEFINITION>
+    <LEVEL_DEFINITION>
+      <ORDER>2</ORDER>
+      <ORIGINAL>Potential Low-Level Resistance</ORIGINAL>
+      <SIR>S</SIR>
+    </LEVEL_DEFINITION>
+    <LEVEL_DEFINITION>
+      <ORDER>3</ORDER>
+      <ORIGINAL>Low-Level Resistance</ORIGINAL>
+      <SIR>I</SIR>
+    </LEVEL_DEFINITION>
+    <LEVEL_DEFINITION>
+      <ORDER>4</ORDER>
+      <ORIGINAL>Intermediate Resistance</ORIGINAL>
+      <SIR>I</SIR>
+    </LEVEL_DEFINITION>
+    <LEVEL_DEFINITION>
+      <ORDER>5</ORDER>
+      <ORIGINAL>High-Level Resistance</ORIGINAL>
+      <SIR>R</SIR>
+    </LEVEL_DEFINITION>
+    <DRUGCLASS>
+      <NAME>NRTI</NAME>
+      <DRUGLIST>ADV,ETV,3TC,TFV</DRUGLIST>
+    </DRUGCLASS>
+    <GLOBALRANGE><![CDATA[(-INF TO 9 => 1,  10 TO 14 => 2,  15 TO 29 => 3,  30 TO 59 => 4,  60 TO INF => 5)]]></GLOBALRANGE>
+    <DEFAULT_LEVEL>1</DEFAULT_LEVEL>
+    <COMMENT_DEFINITIONS>
+      <COMMENT_STRING id="RT80IV">
+        <!--<DATE>2024-03-02</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[L80I is an accessory 3TC DRM that arises in patients who have also developed M204VI.]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT169T">
+        <!--<DATE>2024-03-02</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[High-level ETV resistance results from the combination of M204VI + L180I and one or more of the following DRMs: I169T, T184G, S202I, and M250V. Other mutations: I160K[^Nguyen JGAMR 2023].]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT173L">
+        <!--<DATE>2024-03-02</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[L80I and V173L are additional accessory lamivudine resistance mutations that arise in patients who have also developed viruses with M204V/I.]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT180M">
+        <!--<DATE>2024-03-02</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[M204V/I are also frequently accompanied by compensatory mutations, particularly L180M. Other mutations: L180FYR[^Nguyen JGAMR 2023].]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT181TV">
+        <!--<DATE>2024-03-02</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[A181VT reduce ADV susceptibility 3-10-fold and are associated with VF. A181T causes a stop codon in the S protein reading frame, potentially allowing for ongoing hepatic replication without accompanying viral load rebout. A181VT also occasionally arises in patients receiving 3TC and reduces susceptibility to this drug as well. It also reduces TFV susceptibility. Other DRMs: A181LG[^Nguyen JGAMR 2023], A181C[^Liu Y Emerg Microb Infect 2019[^Rose RE Hep Comm 2018], A181S[^Liu Y, JVH, 2015].]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT184G">
+        <!--<DATE>2024-03-02</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[High-level ETV resistance results from the combination of M204VI + L180I and one or more of the following DRMs: I169T, T184G, S202I, and M250V. Other DRMs: T184AL[^Shao J JIDC 2021], 184ACFGILS[^Shang J BMC ID 2021].]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT202GI">
+        <!--<DATE>2024-03-02</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[High-level ETV resistance results from the combination of M204VI + L180I and one or more of the following DRMs: I169T, T184G, S202I, and M250V. Other mutations: S202N[^Nguyen JGAMR 2023].]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT204IV">
+        <!--<DATE>2024-03-02</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[M204V/I cause high-level to 3TC, FTC, and TBV.]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT236T">
+        <!--<DATE>2024-03-02</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[Other mutations: N236Y[^Bautista-Anorocho Future Vir 2023], N236V[^Liu Y, Antivir Ther 2014].]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT250V">
+        <!--<DATE>2024-03-02</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[High-level ETV resistance results from the combination of M204VI + L180I and one or more of the following DRMs: I169T, T184G, S202I, and M250V. Other mutations M250QL[^Nguyen JGAMR 2023][^Shao J JIDC 2021][^Shang J BMC ID 2021].]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+    </COMMENT_DEFINITIONS>
+  </DEFINITIONS>
+  <DRUG>
+    <NAME>ADV</NAME>
+    <FULLNAME>adefovir</FULLNAME>
+    <RULE>
+      <CONDITION><![CDATA[SCORE FROM (
+        181TV => 0,
+        236T => 0
+      )]]></CONDITION>
+      <ACTIONS>
+        <SCORERANGE>
+          <USE_GLOBALRANGE/>
+        </SCORERANGE>
+      </ACTIONS>
+    </RULE>
+  </DRUG>
+  <DRUG>
+    <NAME>ETV</NAME>
+    <FULLNAME>entecavir</FULLNAME>
+    <RULE>
+      <CONDITION><![CDATA[SCORE FROM (
+        80IV => 0,
+        169T => 0,
+        173L => 0,
+        180M => 0,
+        184G => 0,
+        202GI => 0,
+        204IV => 0,
+        250V => 0
+      )]]></CONDITION>
+      <ACTIONS>
+        <SCORERANGE>
+          <USE_GLOBALRANGE/>
+        </SCORERANGE>
+      </ACTIONS>
+    </RULE>
+  </DRUG>
+  <DRUG>
+    <NAME>3TC</NAME>
+    <FULLNAME>lamivudine</FULLNAME>
+    <RULE>
+      <CONDITION><![CDATA[SCORE FROM (
+        80IV => 0,
+        173L => 0,
+        180M => 0,
+        181TV => 0,
+        204IV => 0
+      )]]></CONDITION>
+      <ACTIONS>
+        <SCORERANGE>
+          <USE_GLOBALRANGE/>
+        </SCORERANGE>
+      </ACTIONS>
+    </RULE>
+  </DRUG>
+  <DRUG>
+    <NAME>TFV</NAME>
+    <FULLNAME>tenofovir</FULLNAME>
+    <RULE>
+      <CONDITION><![CDATA[SCORE FROM (
+        181TV => 0,
+        236T => 0
+      )]]></CONDITION>
+      <ACTIONS>
+        <SCORERANGE>
+          <USE_GLOBALRANGE/>
+        </SCORERANGE>
+      </ACTIONS>
+    </RULE>
+  </DRUG>
+  <MUTATION_COMMENTS>
+    <GENE>
+      <NAME>RT</NAME>
+      <RULE>
+        <CONDITION>80IV</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT80IV"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>169T</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT169T"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>173L</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT173L"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>180M</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT180M"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>181TV</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT181TV"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>184G</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT184G"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>202GI</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT202GI"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>204IV</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT204IV"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>236T</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT236T"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>250V</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT250V"/>
+        </ACTIONS>
+      </RULE>
+    </GENE>
+  </MUTATION_COMMENTS>
+  <RESULT_COMMENTS/>
+</ALGORITHM>

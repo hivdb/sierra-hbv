@@ -54,17 +54,17 @@ public class HBV extends DefaultVirus<HBV> {
 
 		@Override
 		protected String getDrugClassesResPath() {
-			return null;
+			return "drug-classes.json";
 		}
 
 		@Override
 		protected String getDrugsResPath() {
-			return null;
+			return "drugs.json";
 		}
 
 		@Override
 		protected String getDRMsResPath() {
-			return null;
+			return "drms.json";
 		}
 
 		@Override
@@ -124,17 +124,17 @@ public class HBV extends DefaultVirus<HBV> {
 
 		@Override
 		protected String getAlgorithmsIndexPath() {
-			return null;
+			return "algorithms/versions.json";
 		}
 
 		@Override
 		protected String getAlgorithmsResPath() {
-			return null;
+			return "algorithms/%s_%s.xml";
 		}
 
 		@Override
 		protected String getCondCommentsResPath() {
-			return null;
+			return "conditional-comments.json";
 		}
 
 		@Override
@@ -181,7 +181,7 @@ public class HBV extends DefaultVirus<HBV> {
 
 	@Override
 	public DrugResistanceAlgorithm<HBV> getDefaultDrugResistAlgorithm() {
-		return null;
+		return getLatestDrugResistAlgorithm("StanfordHBV");
 	}
 
 	@Override
