@@ -9,7 +9,7 @@
       "pos": 80,
       "aas": "IV"
     },
-    "comment": "L80I is an accessory 3TC DRM that arises in patients who have also developed M204VI."
+    "comment": "L80VI are accessory 3TC DRMs that arises in patients who have also developed M204VI."
   },
   {
     "strain": "HBV",
@@ -21,7 +21,7 @@
       "pos": 169,
       "aas": "T"
     },
-    "comment": "High-level ETV resistance results from the combination of M204VI + L180I and one or more of the following DRMs: I169T, T184G, S202I, and M250V. Other mutations: I160K[^Nguyen JGAMR 2023]."
+    "comment": "I169T contributes to high level ETV resistance when it occurs in combination with M204VI + L180I. I169K is an extremely rare mutation at this position. "
   },
   {
     "strain": "HBV",
@@ -33,47 +33,47 @@
       "pos": 173,
       "aas": "L"
     },
-    "comment": "L80I and V173L are additional accessory lamivudine resistance mutations that arise in patients who have also developed viruses with M204V/I."
+    "comment": "V173L is an accessory 3TC resistance mutation that arises in patients who have also developed viruses with M204VI. In this context it contributes to reduced ETV susceptibility."
   },
   {
     "strain": "HBV",
-    "commentName": "RT180M",
+    "commentName": "RT180MIFYR",
     "drugClass": "NRTI",
     "conditionType": "MUTATION",
     "conditionValue": {
       "gene": "RT",
       "pos": 180,
-      "aas": "M"
+      "aas": "MIFYR"
     },
-    "comment": "M204V/I are also frequently accompanied by compensatory mutations, particularly L180M. Other mutations: L180FYR[^Nguyen JGAMR 2023]."
+    "comment": "L180MI are 3TC-selected mutations that usually occurs in combination with M204VI. The combination causes high-level resistance to 3TC/FTC and low-level reduced susceptibility to ETV. However, this combination of DRMs greatly increases the risk of emergent high-level ETV resistance. Other less common mutations at this position include L180FYR."
   },
   {
     "strain": "HBV",
-    "commentName": "RT181TV",
+    "commentName": "RT181TVSFC",
     "drugClass": "NRTI",
     "conditionType": "MUTATION",
     "conditionValue": {
       "gene": "RT",
       "pos": 181,
-      "aas": "TV"
+      "aas": "TVSFC"
     },
-    "comment": "A181VT reduce ADV susceptibility 3-10-fold and are associated with VF. A181T causes a stop codon in the S protein reading frame, potentially allowing for ongoing hepatic replication without accompanying viral load rebout. A181VT also occasionally arises in patients receiving 3TC and reduces susceptibility to this drug as well. It also reduces TFV susceptibility. Other DRMs: A181LG[^Nguyen JGAMR 2023], A181C[^Liu Y Emerg Microb Infect 2019][^Rose RE Hep Comm 2018], A181S[^Liu Y JVH 2015]."
+    "comment": "A181VT reduce ADV susceptibility 3-10-fold and are associated with VF. A181T causes a stop codon in the S protein reading frame, potentially allowing for ongoing hepatic replication without accompanying plasma viral load rebound. A181VT also occasionally arises in patients receiving 3TC and reduces susceptibility to this drug as well. It causes little, if any, cross-resistance to TDF and TAF.  A181SGC are uncommon mutations at this position."
   },
   {
     "strain": "HBV",
-    "commentName": "RT184G",
+    "commentName": "RT184GALCFIS",
     "drugClass": "NRTI",
     "conditionType": "MUTATION",
     "conditionValue": {
       "gene": "RT",
       "pos": 184,
-      "aas": "G"
+      "aas": "GALCFIS"
     },
-    "comment": "High-level ETV resistance results from the combination of M204VI + L180I and one or more of the following DRMs: I169T, T184G, S202I, and M250V. Other DRMs: T184AL[^Shao J JIDC 2021], 184ACFGILS[^Shang J BMC ID 2021]."
+    "comment": "T184G contributes to high-level ETV resistance when it occurs in combination of M204VI + L180I. T184ALCFGIS are additional rare mutations at this position."
   },
   {
     "strain": "HBV",
-    "commentName": "RT202GI",
+    "commentName": "RT202GIN",
     "drugClass": "NRTI",
     "conditionType": "MUTATION",
     "conditionValue": {
@@ -81,7 +81,7 @@
       "pos": 202,
       "aas": "GI"
     },
-    "comment": "High-level ETV resistance results from the combination of M204VI + L180I and one or more of the following DRMs: I169T, T184G, S202I, and M250V. Other mutations: S202N[^Nguyen JGAMR 2023]."
+    "comment": "S202I contributes to high-level ETV resistance when it occurs in combination with M204VI + L180I. S202GN are additional mutations at this position. "
   },
   {
     "strain": "HBV",
@@ -93,23 +93,23 @@
       "pos": 204,
       "aas": "IV"
     },
-    "comment": "M204V/I cause high-level to 3TC, FTC, and TBV."
+    "comment": "M204V/I cause high-level to resistance to 3TC, FTC, and TBV."
   },
   {
     "strain": "HBV",
-    "commentName": "RT236T",
+    "commentName": "RT236TYV",
     "drugClass": "NRTI",
     "conditionType": "MUTATION",
     "conditionValue": {
       "gene": "RT",
       "pos": 236,
-      "aas": "T"
+      "aas": "TYV"
     },
-    "comment": "N236T: Other mutations include N236Y[^Bautista-Amorocho Front Microbiol 2023] and N236V[^Liu Y Antivir Ther 2014]."
+    "comment": "N236T is selected by ADV and reduces susceptibily to ADV, TDF, and TAF. While this mutation abrogates the antiviral effect of ADV, it appears to have little, if any, impact on the clinical efficacy of TDF and TAF. N236YV are extremely uncommon mutations at this position. "
   },
   {
     "strain": "HBV",
-    "commentName": "RT250V",
+    "commentName": "RT250VQL",
     "drugClass": "NRTI",
     "conditionType": "MUTATION",
     "conditionValue": {
@@ -117,6 +117,30 @@
       "pos": 250,
       "aas": "V"
     },
-    "comment": "High-level ETV resistance results from the combination of M204VI + L180I and one or more of the following DRMs: I169T, T184G, S202I, and M250V. Other mutations M250QL[^Nguyen JGAMR 2023][^Shao J JIDC 2021][^Shang J BMC ID 2021]."
+    "comment": "M250V  contributes to high level ETV resistance when it occurs in combination of M204VI + L180I. M250QL are additional rare mutations at this position."
+  },
+  {
+    "strain": "HBV",
+    "commentName": "RT194TS",
+    "drugClass": "NRTI",
+    "conditionType": "MUTATION",
+    "conditionValue": {
+      "gene": "RT",
+      "pos": 194,
+      "aas": "TS"
+    },
+    "comment": "Occurred in 6 (0.2%) of 3886 patients receiving TVF in clinical trials. It has little if any effect on TFV susceptibility. It has also been reported in 4 of 191 patients receeiving 3TC, ADV, and ETV."
+  },
+  {
+    "strain": "HBV",
+    "commentName": "RT233V",
+    "drugClass": "NRTI",
+    "conditionType": "MUTATION",
+    "conditionValue": {
+      "gene": "RT",
+      "pos": 233,
+      "aas": "V"
+    },
+    "comment": "I233V has been reported to reduce ADV susceptibility. However it appears to occur in 1% of treatment-na\u00efve and ADV-experienced patients. Further studies found no effects on ADV susceptibility "
   }
 ]

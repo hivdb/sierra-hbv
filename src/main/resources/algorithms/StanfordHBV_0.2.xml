@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE ALGORITHM SYSTEM "https://cms.hivdb.org/prod/downloads/asi/ASI2.3.dtd">
+<ALGORITHM>
+  <ALGNAME>StanfordHBV</ALGNAME>
+  <ALGVERSION>0.2</ALGVERSION>
+  <ALGDATE>2024-03-05</ALGDATE>
+  <DEFINITIONS>
+    <GENE_DEFINITION>
+      <NAME>RT</NAME>
+      <DRUGCLASSLIST>NRTI</DRUGCLASSLIST>
+    </GENE_DEFINITION>
+    <LEVEL_DEFINITION>
+      <ORDER>1</ORDER>
+      <ORIGINAL>Susceptible</ORIGINAL>
+      <SIR>S</SIR>
+    </LEVEL_DEFINITION>
+    <LEVEL_DEFINITION>
+      <ORDER>2</ORDER>
+      <ORIGINAL>Potential Low-Level Resistance</ORIGINAL>
+      <SIR>S</SIR>
+    </LEVEL_DEFINITION>
+    <LEVEL_DEFINITION>
+      <ORDER>3</ORDER>
+      <ORIGINAL>Low-Level Resistance</ORIGINAL>
+      <SIR>I</SIR>
+    </LEVEL_DEFINITION>
+    <LEVEL_DEFINITION>
+      <ORDER>4</ORDER>
+      <ORIGINAL>Intermediate Resistance</ORIGINAL>
+      <SIR>I</SIR>
+    </LEVEL_DEFINITION>
+    <LEVEL_DEFINITION>
+      <ORDER>5</ORDER>
+      <ORIGINAL>High-Level Resistance</ORIGINAL>
+      <SIR>R</SIR>
+    </LEVEL_DEFINITION>
+    <DRUGCLASS>
+      <NAME>NRTI</NAME>
+      <DRUGLIST>ADV,ETV,3TC,TFV</DRUGLIST>
+    </DRUGCLASS>
+    <GLOBALRANGE><![CDATA[(-INF TO 9 => 1,  10 TO 14 => 2,  15 TO 29 => 3,  30 TO 59 => 4,  60 TO INF => 5)]]></GLOBALRANGE>
+    <DEFAULT_LEVEL>1</DEFAULT_LEVEL>
+    <COMMENT_DEFINITIONS>
+      <COMMENT_STRING id="RT80IV">
+        <!--<DATE>2024-03-05</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[L80VI are accessory 3TC DRMs that arises in patients who have also developed M204VI.]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT169T">
+        <!--<DATE>2024-03-05</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[I169T contributes to high level ETV resistance when it occurs in combination with M204VI + L180I. I169K is an extremely rare mutation at this position. ]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT173L">
+        <!--<DATE>2024-03-05</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[V173L is an accessory 3TC resistance mutation that arises in patients who have also developed viruses with M204VI. In this context it contributes to reduced ETV susceptibility.]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT180MIFYR">
+        <!--<DATE>2024-03-05</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[L180MI are 3TC-selected mutations that usually occurs in combination with M204VI. The combination causes high-level resistance to 3TC/FTC and low-level reduced susceptibility to ETV. However, this combination of DRMs greatly increases the risk of emergent high-level ETV resistance. Other less common mutations at this position include L180FYR.]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT181TVSFC">
+        <!--<DATE>2024-03-05</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[A181VT reduce ADV susceptibility 3-10-fold and are associated with VF. A181T causes a stop codon in the S protein reading frame, potentially allowing for ongoing hepatic replication without accompanying plasma viral load rebound. A181VT also occasionally arises in patients receiving 3TC and reduces susceptibility to this drug as well. It causes little, if any, cross-resistance to TDF and TAF.  A181SGC are uncommon mutations at this position.]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT184GALCFIS">
+        <!--<DATE>2024-03-05</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[T184G contributes to high-level ETV resistance when it occurs in combination of M204VI + L180I. T184ALCFGIS are additional rare mutations at this position.]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT202GIN">
+        <!--<DATE>2024-03-05</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[S202I contributes to high-level ETV resistance when it occurs in combination with M204VI + L180I. S202GN are additional mutations at this position. ]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT204IV">
+        <!--<DATE>2024-03-05</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[M204V/I cause high-level to resistance to 3TC, FTC, and TBV.]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT236TYV">
+        <!--<DATE>2024-03-05</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[N236T is selected by ADV and reduces susceptibily to ADV, TDF, and TAF. While this mutation abrogates the antiviral effect of ADV, it appears to have little, if any, impact on the clinical efficacy of TDF and TAF. N236YV are extremely uncommon mutations at this position. ]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT250VQL">
+        <!--<DATE>2024-03-05</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[M250V  contributes to high level ETV resistance when it occurs in combination of M204VI + L180I. M250QL are additional rare mutations at this position.]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT194TS">
+        <!--<DATE>2024-03-05</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[Occurred in 6 (0.2%) of 3886 patients receiving TVF in clinical trials. It has little if any effect on TFV susceptibility. It has also been reported in 4 of 191 patients receeiving 3TC, ADV, and ETV.]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+      <COMMENT_STRING id="RT233V">
+        <!--<DATE>2024-03-05</DATE>-->
+        <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
+        <TEXT><![CDATA[I233V has been reported to reduce ADV susceptibility. However it appears to occur in 1% of treatment-naïve and ADV-experienced patients. Further studies found no effects on ADV susceptibility ]]></TEXT>
+        <SORT_TAG>1</SORT_TAG>
+      </COMMENT_STRING>
+    </COMMENT_DEFINITIONS>
+  </DEFINITIONS>
+  <DRUG>
+    <NAME>ADV</NAME>
+    <FULLNAME>adefovir</FULLNAME>
+    <RULE>
+      <CONDITION><![CDATA[SCORE FROM (
+        181TV => 0,
+        236T => 0
+      )]]></CONDITION>
+      <ACTIONS>
+        <SCORERANGE>
+          <USE_GLOBALRANGE/>
+        </SCORERANGE>
+      </ACTIONS>
+    </RULE>
+  </DRUG>
+  <DRUG>
+    <NAME>ETV</NAME>
+    <FULLNAME>entecavir</FULLNAME>
+    <RULE>
+      <CONDITION><![CDATA[SCORE FROM (
+        80IV => 0,
+        169T => 0,
+        173L => 0,
+        180M => 0,
+        184G => 0,
+        202GI => 0,
+        204IV => 0,
+        250V => 0
+      )]]></CONDITION>
+      <ACTIONS>
+        <SCORERANGE>
+          <USE_GLOBALRANGE/>
+        </SCORERANGE>
+      </ACTIONS>
+    </RULE>
+  </DRUG>
+  <DRUG>
+    <NAME>3TC</NAME>
+    <FULLNAME>lamivudine</FULLNAME>
+    <RULE>
+      <CONDITION><![CDATA[SCORE FROM (
+        80IV => 0,
+        173L => 0,
+        180M => 0,
+        181TV => 0,
+        204IV => 0
+      )]]></CONDITION>
+      <ACTIONS>
+        <SCORERANGE>
+          <USE_GLOBALRANGE/>
+        </SCORERANGE>
+      </ACTIONS>
+    </RULE>
+  </DRUG>
+  <DRUG>
+    <NAME>TFV</NAME>
+    <FULLNAME>tenofovir</FULLNAME>
+    <RULE>
+      <CONDITION><![CDATA[SCORE FROM (
+        181TV => 0,
+        236T => 0
+      )]]></CONDITION>
+      <ACTIONS>
+        <SCORERANGE>
+          <USE_GLOBALRANGE/>
+        </SCORERANGE>
+      </ACTIONS>
+    </RULE>
+  </DRUG>
+  <MUTATION_COMMENTS>
+    <GENE>
+      <NAME>RT</NAME>
+      <RULE>
+        <CONDITION>80IV</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT80IV"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>169T</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT169T"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>173L</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT173L"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>180MIFYR</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT180MIFYR"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>181TVSFC</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT181TVSFC"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>184GALCFIS</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT184GALCFIS"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>202GI</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT202GIN"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>204IV</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT204IV"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>236TYV</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT236TYV"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>250V</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT250VQL"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>194TS</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT194TS"/>
+        </ACTIONS>
+      </RULE>
+      <RULE>
+        <CONDITION>233V</CONDITION>
+        <ACTIONS>
+          <COMMENT ref="RT233V"/>
+        </ACTIONS>
+      </RULE>
+    </GENE>
+  </MUTATION_COMMENTS>
+  <RESULT_COMMENTS/>
+</ALGORITHM>
