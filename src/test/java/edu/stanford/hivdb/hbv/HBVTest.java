@@ -25,7 +25,7 @@ public class HBVTest {
 	
 	@Test
 	public void testAminoAcidPercentsLoader() {
-		assertEquals(hbv.getMainAminoAcidPercents(hbv.getMainStrain()).get().size(), 2052);
+		assertEquals(hbv.getMainAminoAcidPercents(hbv.getMainStrain()).get().size(), 2061);
 	}
 
 	@Test
