@@ -11,6 +11,7 @@
     "mutationTypes": [
       "Major",
       "Accessory",
+      "Uncertain",
       "Other"
     ]
   }

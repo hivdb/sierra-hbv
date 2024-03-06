@@ -25,7 +25,7 @@ public class HBVTest {
 	
 	@Test
 	public void testAminoAcidPercentsLoader() {
-		assertEquals(hbv.getMainAminoAcidPercents(hbv.getMainStrain()).get().size(), 2051);
+		assertEquals(hbv.getMainAminoAcidPercents(hbv.getMainStrain()).get().size(), 2052);
 	}
 
 	@Test
@@ -43,6 +43,6 @@ public class HBVTest {
 	@Test
 	public void testGetDefaultDrugResistAlgorithm() {
 		assertEquals("StanfordHBV", hbv.getDefaultDrugResistAlgorithm().getFamily());
-		assertEquals("0.1", hbv.getDefaultDrugResistAlgorithm().getVersion());
+		assertEquals("0.2", hbv.getDefaultDrugResistAlgorithm().getVersion());
 	}
 }
