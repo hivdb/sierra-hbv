@@ -50,7 +50,7 @@
       <COMMENT_STRING id="RT169T">
         <!--<DATE>2024-03-05</DATE>-->
         <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
-        <TEXT><![CDATA[I169T contributes to high level ETV resistance when it occurs in combination with M204VI + L180I. I169K is an extremely rare mutation at this position. ]]></TEXT>
+        <TEXT><![CDATA[I169T contributes to high level ETV resistance when it occurs in combination with M204VI + L180I. I169K is an extremely rare mutation at this position.]]></TEXT>
         <SORT_TAG>1</SORT_TAG>
       </COMMENT_STRING>
       <COMMENT_STRING id="RT173L">
@@ -80,7 +80,7 @@
       <COMMENT_STRING id="RT202GIN">
         <!--<DATE>2024-03-05</DATE>-->
         <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
-        <TEXT><![CDATA[S202I contributes to high-level ETV resistance when it occurs in combination with M204VI + L180I. S202GN are additional mutations at this position. ]]></TEXT>
+        <TEXT><![CDATA[S202I contributes to high-level ETV resistance when it occurs in combination with M204VI + L180I. S202GN are additional mutations at this position.]]></TEXT>
         <SORT_TAG>1</SORT_TAG>
       </COMMENT_STRING>
       <COMMENT_STRING id="RT204IV">
@@ -92,13 +92,13 @@
       <COMMENT_STRING id="RT236TYV">
         <!--<DATE>2024-03-05</DATE>-->
         <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
-        <TEXT><![CDATA[N236T is selected by ADV and reduces susceptibily to ADV, TDF, and TAF. While this mutation abrogates the antiviral effect of ADV, it appears to have little, if any, impact on the clinical efficacy of TDF and TAF. N236YV are extremely uncommon mutations at this position. ]]></TEXT>
+        <TEXT><![CDATA[N236T is selected by ADV and reduces susceptibily to ADV, TDF, and TAF. While this mutation abrogates the antiviral effect of ADV, it appears to have little, if any, impact on the clinical efficacy of TDF and TAF. N236YV are extremely uncommon mutations at this position.]]></TEXT>
         <SORT_TAG>1</SORT_TAG>
       </COMMENT_STRING>
       <COMMENT_STRING id="RT250VQL">
         <!--<DATE>2024-03-05</DATE>-->
         <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
-        <TEXT><![CDATA[M250V  contributes to high level ETV resistance when it occurs in combination of M204VI + L180I. M250QL are additional rare mutations at this position.]]></TEXT>
+        <TEXT><![CDATA[M250V contributes to high level ETV resistance when it occurs in combination of M204VI + L180I. M250QL are additional rare mutations at this position.]]></TEXT>
         <SORT_TAG>1</SORT_TAG>
       </COMMENT_STRING>
       <COMMENT_STRING id="RT194TS">
@@ -110,7 +110,7 @@
       <COMMENT_STRING id="RT233V">
         <!--<DATE>2024-03-05</DATE>-->
         <!--<DRUGCLASS>NRTI</DRUGCLASS>-->
-        <TEXT><![CDATA[I233V has been reported to reduce ADV susceptibility. However it appears to occur in 1% of treatment-naïve and ADV-experienced patients. Further studies found no effects on ADV susceptibility ]]></TEXT>
+        <TEXT><![CDATA[I233V has been reported to reduce ADV susceptibility. However it appears to occur in 1% of treatment-naïve and ADV-experienced patients. Further studies found no effects on ADV susceptibility.]]></TEXT>
         <SORT_TAG>1</SORT_TAG>
       </COMMENT_STRING>
     </COMMENT_DEFINITIONS>
@@ -224,7 +224,7 @@
         </ACTIONS>
       </RULE>
       <RULE>
-        <CONDITION>202GI</CONDITION>
+        <CONDITION>202GIN</CONDITION>
         <ACTIONS>
           <COMMENT ref="RT202GIN"/>
         </ACTIONS>
@@ -242,7 +242,7 @@
         </ACTIONS>
       </RULE>
       <RULE>
-        <CONDITION>250V</CONDITION>
+        <CONDITION>250VQL</CONDITION>
         <ACTIONS>
           <COMMENT ref="RT250VQL"/>
         </ACTIONS>

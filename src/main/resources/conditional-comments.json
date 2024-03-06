@@ -21,7 +21,7 @@
       "pos": 169,
       "aas": "T"
     },
-    "comment": "I169T contributes to high level ETV resistance when it occurs in combination with M204VI + L180I. I169K is an extremely rare mutation at this position. "
+    "comment": "I169T contributes to high level ETV resistance when it occurs in combination with M204VI + L180I. I169K is an extremely rare mutation at this position."
   },
   {
     "strain": "HBV",
@@ -79,9 +79,9 @@
     "conditionValue": {
       "gene": "RT",
       "pos": 202,
-      "aas": "GI"
+      "aas": "GIN"
     },
-    "comment": "S202I contributes to high-level ETV resistance when it occurs in combination with M204VI + L180I. S202GN are additional mutations at this position. "
+    "comment": "S202I contributes to high-level ETV resistance when it occurs in combination with M204VI + L180I. S202GN are additional mutations at this position."
   },
   {
     "strain": "HBV",
@@ -105,7 +105,7 @@
       "pos": 236,
       "aas": "TYV"
     },
-    "comment": "N236T is selected by ADV and reduces susceptibily to ADV, TDF, and TAF. While this mutation abrogates the antiviral effect of ADV, it appears to have little, if any, impact on the clinical efficacy of TDF and TAF. N236YV are extremely uncommon mutations at this position. "
+    "comment": "N236T is selected by ADV and reduces susceptibily to ADV, TDF, and TAF. While this mutation abrogates the antiviral effect of ADV, it appears to have little, if any, impact on the clinical efficacy of TDF and TAF. N236YV are extremely uncommon mutations at this position."
   },
   {
     "strain": "HBV",
@@ -115,9 +115,9 @@
     "conditionValue": {
       "gene": "RT",
       "pos": 250,
-      "aas": "V"
+      "aas": "VQL"
     },
-    "comment": "M250V  contributes to high level ETV resistance when it occurs in combination of M204VI + L180I. M250QL are additional rare mutations at this position."
+    "comment": "M250V contributes to high level ETV resistance when it occurs in combination of M204VI + L180I. M250QL are additional rare mutations at this position."
   },
   {
     "strain": "HBV",
@@ -141,6 +141,6 @@
       "pos": 233,
       "aas": "V"
     },
-    "comment": "I233V has been reported to reduce ADV susceptibility. However it appears to occur in 1% of treatment-na\u00efve and ADV-experienced patients. Further studies found no effects on ADV susceptibility "
+    "comment": "I233V has been reported to reduce ADV susceptibility. However it appears to occur in 1% of treatment-na\u00efve and ADV-experienced patients. Further studies found no effects on ADV susceptibility."
   }
 ]
