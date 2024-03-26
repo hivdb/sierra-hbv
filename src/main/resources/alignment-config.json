@@ -10,7 +10,7 @@
         "codon-alignment", "1815", "2454",
         "codon-alignment", "2309", "3181"
       ],
-      "minimap2Opts": "-w 5 --score-N 0 --secondary no"
+      "minimap2Opts": "-k 6 -w 3 --score-N 0 --secondary no"
     },
     {
       "fragmentName": "HBVP",
