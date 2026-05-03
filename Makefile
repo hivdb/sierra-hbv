@@ -1,12 +1,11 @@
 VERSION=$(shell date -u +"%Y%m%d%H%M%S")
 DOCKERREPO=$(shell ./scripts/get-docker-repo.sh)
+PLATFORMS=linux/amd64,linux/arm64
 
 build:
-	@docker pull hivdb/tomcat-with-nucamino:latest
 	@docker build -t ${DOCKERREPO} .
 
 force-build:
-	@docker pull hivdb/tomcat-with-nucamino:latest
 	@docker build --no-cache -t ${DOCKERREPO} .
 
 inspect-dev:
@@ -21,13 +20,13 @@ dev: build
 		--env CMS_STAGE=localhost \
 		--rm -it --publish=8118:8080 ${DOCKERREPO} dev
 
-release: build
+release:
 	@docker login
-	@docker tag ${DOCKERREPO}:latest ${DOCKERREPO}:${VERSION}
-	@docker push ${DOCKERREPO}:${VERSION}
-	@docker push ${DOCKERREPO}:latest
+	@docker buildx build --platform ${PLATFORMS} \
+		-t ${DOCKERREPO}:${VERSION} \
+		-t ${DOCKERREPO}:latest \
+		--push .
 	@echo ${VERSION} > .latest-version
-	@sleep 2
 
 src/main/resources/aapcnt/%.json: src/main/resources/aapcnt/%.csv scripts/csv2json.py
 	@python3 scripts/csv2json.py $<
